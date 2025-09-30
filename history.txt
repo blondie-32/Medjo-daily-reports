@@ -1,0 +1,47 @@
+  426  git help
+  427  man git
+  428  git --help
+  429  git config --global user.name "YOUR NAME" Blondie
+  430  git config --global user.email "YOUR EMAIL" gynez.guemdjo@aims.ac.rw
+  431  git init
+  435  git init
+  436  ls -A .git
+  437  cd .git
+  441  git status
+  443  git status
+  445  git status
+  447  git status
+  448  git add README.md 
+  449  git commit -am "This is the first commit. It adds a readme file."
+  450  git status
+  451  git statuts
+  452  git diff
+  455  git diff
+  458  git diff
+  459  git status
+  460  git add file1
+  461  git add file2
+  462  git status
+  463  git commit -am "This is the first commit. It adds a readme file."
+  464  git status
+  465  git status file1 file2
+  475  git diff
+  476  git diff --stat
+  477  git diff --stat
+  478  git diff HEAD -- [path]
+  479  git diff --cached
+  480  git log
+  481  git reset
+  482  git reset temp_notes
+  483  git checkout -- README.md
+  484  git rm READYOU.md
+  486  git checkout -- README.md
+  487  git revert
+  488  git revert abc456
+  489  git log
+  490  git log --pretty=oneline
+  491  git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset%s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+  495  history | grep 'git'
+  496  history | grep 'git' >> history_commands.txt
+  500  history | grep "git"
+  501  history | grep "git" > history.txt
